@@ -28,6 +28,7 @@
 	{% endif %}
     </div>
     <div class="col-md-6 help-links" align="right">
+	{% comment %}
 	{% if page.source %}
 	{% if page.source == "Rmd" %}
 	<a href="{{repo_url}}/edit/{{ default_branch }}/{{page.path|replace: "_episodes", "_episodes_rmd" | replace: ".md", ".Rmd"}}" data-checker-ignore>Edit on GitHub</a>
@@ -38,6 +39,7 @@
 	/
 	<a href="{{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
 	/
+	{% endcomment %}
 	<a href="{{ repo_url }}/">Source</a>
 	/
 	<a href="{{ repo_url }}/blob/{{ source_branch }}/CITATION" data-checker-ignore>Cite</a>
