@@ -1,9 +1,4 @@
----
-layout: page
-title: Setup
----
-
-<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+I"÷)<div id="shell"> 
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
@@ -24,7 +19,7 @@ title: Setup
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
           <li>Run the installer and follow the steps below:
             <ol>
-              {% comment %} Git 2.22.0 Setup {% endcomment %}
+              
               <li>
                 Click on "Next" four times (two times if you've previously
                 installed Git).  You don't need to change anything
@@ -35,34 +30,33 @@ title: Setup
                   Select "Use the nano editor by default" and click on "Next".
                 </strong>
               </li>
-              {% comment %} Adjusting your PATH environment {% endcomment %}
+              
               <li>
                 Keep "Git from the command line and also from 3rd-party software" selected and click on "Next".
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
               </li>
-              {% comment %} Choosing the SSH executable {% endcomment %}
+              
               <li>Click on "Next".</li>
-              {% comment %} Choosing HTTPS transport backend {% endcomment %}
+              
               <li>Select "Use the native Windows Secure Channel library", and click "Next".</li>
-              {% comment %} This should mean that people stuck behind corporate firewalls that do MITM attacks 
-                                 with their own root CA are still able to access remote git repos. {% endcomment %}
-              {% comment %} Configuring the line ending conversions {% endcomment %}
+              
+              
               <li>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
               </li>
-              {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
+              
               <li>
                 <strong>
                   Select "Use Windows' default console window" and click on "Next".
                 </strong>
               </li>
-              {% comment %} Configuring extra options {% endcomment %}
+              
               <li>Leave all three items selected, and click on "Next".</li>
-              {% comment %} Configuring experimental options {% endcomment %}
+              
               <li>Do not select the experimental option. Click "Install".</li>
-              {% comment %} Installing {% endcomment %}
-              {% comment %} Completing the Git Setup Wizard {% endcomment %}
+              
+              
               <li>Click on "Finish".</li>
             </ol>
           </li>
@@ -103,10 +97,9 @@ title: Setup
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'shell' section. {% endcomment %}
+</div>
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
-  is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
+<div id="git"> 
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
@@ -166,9 +159,9 @@ title: Setup
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'Git' section. {% endcomment %}
+</div>
 
-<div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
+<div id="editor"> 
   <h3>Text Editor</h3>
 
   <p>
@@ -231,16 +224,14 @@ title: Setup
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
+</div>
 
----
+<hr />
 
-We'll do our work in the `Desktop` folder so make sure you change your working directory to it with:
+<p>Weâ€™ll do our work in the <code class="highlighter-rouge">Desktop</code> folder so make sure you change your working directory to it with:</p>
 
-~~~
-$ cd
-$ cd Desktop
-~~~
-{: .language-bash}
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span>
+<span class="nv">$ </span><span class="nb">cd </span>Desktop
+</code></pre></div></div>
 
-[workshop-setup]: https://carpentries.github.io/workshop-template/#git
+:ET
