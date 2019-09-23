@@ -5,12 +5,14 @@ git-novice
 ==========
 
 An introduction to version control for novices using Git.
-Please see <https://swcarpentry.github.io/git-novice/> for a rendered version of this material,
+Please see <https://drdn.github.io/git-novice/> for a rendered version of this material,
 [the lesson template documentation][lesson-example]
 for instructions on formatting, building, and submitting material,
 or run `make` in this directory for a list of helpful commands.
 
-Maintainers:
+These materials adapted from the Software Carpentries. Please refer to <https://swcarpentry.github.io/git-novice/> for the original lesson materials.
+
+Original lesson materials were developed and maintained by:
 
 * [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)
 * [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)
